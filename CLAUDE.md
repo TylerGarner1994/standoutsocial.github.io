@@ -74,19 +74,50 @@ Standout Social builds high-converting landing pages, ads, and marketing funnels
 
 ## Standard Workflow
 
+### MANDATORY: Conversion Mode Selection
+**Before creating ANY landing page, advertorial, sales page, quiz funnel, or ad creative**, you MUST ask the user to select a conversion mode using AskUserQuestion. No exceptions. This shapes every word, claim, and tactic on the page.
+
+#### Mode Definitions
+
+**Whitehat / Compliant**
+- Conservative, fully substantiated claims only
+- Brand-forward design and messaging
+- Soft CTAs ("Learn more", "See details")
+- Hedged language ("may help", "designed to support")
+- FDA/FTC-safe supplement language
+- Social proof presented factually without amplification
+- No manufactured urgency or scarcity
+- Best for: established brands, regulated industries, long-term brand building
+
+**Greyhat / Semi-Aggressive**
+- Stronger benefit claims pushed to the edge of substantiation
+- Direct response over branding — every element exists to convert
+- Hard CTAs with urgency ("Get my discount before it's gone")
+- Specific outcome language ("relief in 2 weeks" vs "may support comfort")
+- Aggressive curiosity gaps, pattern interrupts, and open loops
+- Amplified social proof (lead with strongest results, imply they're typical)
+- Manufactured urgency: limited stock, expiring discounts, countdown timers
+- Stronger fear-of-missing-out and loss aversion framing
+- Objection crushing over objection handling
+- Testimonials positioned as expected outcomes, not outliers
+- Advertorials styled to feel indistinguishable from editorial content
+- Best for: cold traffic, paid ads, competitive supplement/DTC markets, maximum conversion
+
 ### New Campaign
-1. Check for `campaign_brief.md` → read if exists
-2. If no brief: use **dr-market-research** to gather intelligence
-3. Use **persona-architect** to define target audience
-4. Use **brand-style-extractor** or **brand-extraction** for voice
-5. Select appropriate content skill based on deliverable
-6. Run **qa-reviewer** before final delivery
+1. **Ask Conversion Mode** (whitehat or greyhat) — MANDATORY
+2. Check for `campaign_brief.md` → read if exists
+3. If no brief: use **dr-market-research** to gather intelligence
+4. Use **persona-architect** to define target audience
+5. Use **brand-style-extractor** or **brand-extraction** for voice
+6. Select appropriate content skill based on deliverable
+7. Run **qa-reviewer** before final delivery
 
 ### Quick Content Request
-1. Check for `campaign_brief.md`
-2. Load relevant skill
-3. Generate content
-4. QA check
+1. **Ask Conversion Mode** (whitehat or greyhat) — MANDATORY
+2. Check for `campaign_brief.md`
+3. Load relevant skill
+4. Generate content
+5. QA check
 
 ## Output Standards
 - Save all outputs to `/output/` directory
